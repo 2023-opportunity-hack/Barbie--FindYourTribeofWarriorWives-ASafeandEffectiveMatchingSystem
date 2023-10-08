@@ -30,6 +30,7 @@ function HomeScreen(){
              <EventList events={events} />
             <div className="App">
                 <UserAttributes />
+                <EventList />
             </div>
             <button onClick={handleClick}>Sign Out</button>
         </div>

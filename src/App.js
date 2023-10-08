@@ -7,6 +7,8 @@ import SearchBar from './SearchBar';
 import ProfileSidebar from './ProfileSidebar';
 import warrior_w1 from './warrior_wives1.jpg';
 import warrior_w2 from './warrior_wives2.jpg';
+import EventCreationPage from './EventCreationPage';
+import FormDialog from './EventCreationPopup';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -14,6 +16,7 @@ function App() {
   const handleSearch = (term) => {
     setSearchTerm(term);
   };
+  
   return (
       
     
@@ -21,11 +24,13 @@ function App() {
 
       
       <div className="scroll-container">
+        
       <ProfileSidebar />
       <SearchBar onSearch={handleSearch} />
-      <button className="colored-button">Create Event</button>
+      
+      <FormDialog />
       <button className="colored-button1">Friends</button>
-      <button className="colored-button2">Maps</button>
+      <a href="https://maps.google.com/"><button className="colored-button2">Maps</button></a>
       <button className="colored-button3">Live-Chat Bot</button>
        <img src={newLogo} className="aimage" />
        <img src={warrior_w1} className='wimage'/>

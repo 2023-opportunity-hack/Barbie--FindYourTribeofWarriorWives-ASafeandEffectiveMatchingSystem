@@ -54,11 +54,14 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    
+   
+  }
+  .colored-button-div {
     position: absolute;
     z-index: 10;
     margin-top: 160px;
     margin-left: 90px;
-   
   }
 .colored-button:hover {
     background-color: #e0ddec;
