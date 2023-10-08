@@ -28,7 +28,8 @@ function App() {
       <button className="colored-button2">Maps</button>
       <button className="colored-button3">Live-Chat Bot</button>
        <img src={newLogo} className="aimage" />
-       <img src={warrior_w1}/>
+       <img src={warrior_w1} className='wimage'/>
+       <img src={warrior_w2} className='wimage1'/>
       </div>
      
       </div> 

@@ -113,3 +113,17 @@
     background-color: #10d4d4;
   }
 
+.wimage {
+    width: 400px; /* Set the width of the image */
+    height: 250px; /* Maintain aspect ratio */
+    position: absolute;
+    margin-top: 50px; /* Set margin from the top */
+    margin-left:-300px; /* Set margin from the left */
+  }
+.wimage1 {
+    width: 400px; /* Set the width of the image */
+    height: 250px; /* Maintain aspect ratio */
+    position: absolute;
+    margin-top: 50px; /* Set margin from the top */
+    margin-left: 150px; /* Set margin from the left */
+  }
